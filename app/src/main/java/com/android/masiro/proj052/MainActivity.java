@@ -218,7 +218,7 @@ public class MainActivity extends AppCompatActivity {
         Fragment1 fragment1 = new Fragment1();
         FragmentManager fm1 = getSupportFragmentManager();
         FragmentTransaction ft1 = fm1.beginTransaction();
-        ft1.replace(R.id.fragment2, fragment1);
+        ft1.replace(R.id.fragment1, fragment1);
         ft1.commit();
     }
 
